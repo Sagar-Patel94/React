@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=RGKi6LSPDLU   ---> 1 h
+https://www.youtube.com/watch?v=RGKi6LSPDLU   ---> 1.17 h
 open powershell in root folder :- shift + right click
 npx create-react-app todos-list
 npm start
