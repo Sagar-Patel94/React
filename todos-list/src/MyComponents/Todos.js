@@ -2,6 +2,7 @@ import React from "react";
 import { TodoItem } from "./TodoItem";
 
 export const Todos = (props) => {
+  console.log("third")
   let myStyle = {
     minHeight: "70vh",
     margin: "40px auto"
@@ -13,9 +14,7 @@ export const Todos = (props) => {
         ? "No todos to display"
         : props.todos.map((todo) => {
             return (
-              <>
-              <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} /> <hr/>
-              </>
+              <TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete} />
             );
           })}
     </div>
